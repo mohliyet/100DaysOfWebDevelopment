@@ -32,4 +32,4 @@ I'm committed to daily learning and consistent growth. In this section, I'll sha
 
 ## Let's Connect
 
-I'm always open to connecting with fellow tech enthusiasts, collaborating on projects, or exchanging ideas. Feel free to reach out to me on [LinkedIn](Your-LinkedIn-URL) or [Twitter](Your-Twitter-URL).
+I'm always open to connecting with fellow tech enthusiasts, collaborating on projects, or exchanging ideas. Feel free to reach out to me on [LinkedIn](Your-LinkedIn-URL) or [Twitter](https://www.twitter.com/mohliyet).
