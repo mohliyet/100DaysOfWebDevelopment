@@ -21,31 +21,33 @@ But it must have the following features:
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    html{
+    body {
       background-color: black;
     }
-    #image{
-      align-items: center;
-      align-content: center;
-    }
-    img{
-      border: 5px solid white;  
-      margin: 20px;   
-    }
-    #h1_text{
-      color: white;
-      text-align: center;
+    h1 {
+      text-transform: uppercase;
       font-size: 3rem;
     }
-    #p_text{
+
+    .poster {
+      width: 50%;
+      margin-left: 25%;
+      margin-top: 100px;
       color: white;
+      font-family: "Libre Baskerville", serif;
       text-align: center;
     }
+
+    .motivation-img {
+      border: 5px solid white;
+      width: 100%;
+    }
+
   </style>
 </head>
 <body>
   <div class="poster">
-    <img src="./assets/images/daenerys.jpeg" alt="">
+    <img class="motivation-img" src="./assets/images/daenerys.jpeg" alt="">
     <h1>THAT SPECIAL MOMENT</h1>
     <p>When you find the perfect avocado at the supermarket</p>
   </div>
