@@ -1,0 +1,8 @@
+/* Write your code here: */
+.header1, .header2{
+    color: blueviolet;
+}
+
+.box, .done{
+    color: firebrick;
+}
