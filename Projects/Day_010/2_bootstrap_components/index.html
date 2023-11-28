@@ -8,6 +8,10 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
   <style>
+    .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;}
 
   </style>
 </head>
@@ -53,13 +57,56 @@
     <div class="col-lg-6 mx-auto">
       <p class="lead mb-4">Welcome to the nexus of innovation where Ethiopian ingenuity meets artificial intelligence. Our mission is to pioneer advanced AI research and design solutions that tackle local and global challenges. Join us on a journey to harness the power of AI for a brighter, smarter future.</p>
       <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Primary button</button>
-        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Get involved</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Explore more</button>
       </div>
     </div>
     <div class="overflow-hidden" style="max-height: 30vh;">
-      <div class="container px-5">
-        <img src="bootstrap-docs.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      <!-- <div class="container px-5">
+        <img src="./landingpage.webp" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="100%" loading="lazy">
+      </div> -->
+    </div>
+  </div>
+
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom">Core Pillars</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <!-- <svg class="bi" width="1em" height="1em"><use xlink:href="./book.svg"></use></svg> -->
+          <img src="./book.svg" height="30">
+        </div>
+        
+        <h3 class="fs-2 text-body-emphasis">Innovative Learning</h3>
+        <p>Dive into our AI educational initiatives, empowering Ethiopian minds with the knowledge to shape the future.</p>
+        <a href="#" class="icon-link">
+          Start Learning
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center   text-bg-primary fs-2 mb-3">
+          <!-- <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg> -->
+          <img src="./search.svg" height="30">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Cutting-Edge Exploration</h3>
+        <p>Discover our breakthrough research in computer vision and LLMs, contributing to Ethiopia’s growing presence in AI.</p>
+        <a href="#" class="icon-link">
+          See Our Work
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary fs-2 mb-3">
+          <!-- <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg> -->
+          <img src="./pencil-square.svg" height="30" alt="creative solutions icon">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Creative Solutions</h3>
+        <p>Explore how design thinking informs our AI solutions, merging aesthetics with functionality for impactful innovations.</p>
+        <a href="#" class="icon-link">
+          View Designs
+          <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+        </a>
       </div>
     </div>
   </div>
